@@ -104,3 +104,13 @@
 //      i += 1
 // }
 // console.log(sum);
+
+
+//! 6. 3 rəqəmli ədədlərdən 7 və 8-ə bölünən ilk ədədi tapın
+
+for (let i = 100; i < 1000; i++) {
+     if (i % 7 == 0 && i % 8 == 0) {
+          console.log(i);
+          break
+     }
+}
