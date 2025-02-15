@@ -108,9 +108,28 @@
 
 //! 6. 3 rəqəmli ədədlərdən 7 və 8-ə bölünən ilk ədədi tapın
 
-for (let i = 100; i < 1000; i++) {
-     if (i % 7 == 0 && i % 8 == 0) {
-          console.log(i);
-          break
+// for (let i = 100; i < 1000; i++) {
+//      if (i % 7 == 0 && i % 8 == 0) {
+//           console.log(i);
+//           break
+//      }
+// }
+
+
+let word1 = "ab";
+let word2 = "pqrs";
+
+let result = "";
+
+let maxLength = Math.max(word1.length, word2.length);
+
+for (let i = 0; i < maxLength; i++) {
+     if (i < word1.length) {
+          result += word1[i];
+     }
+     if (i < word2.length) {
+          result += word2[i]
      }
 }
+
+console.log(result);

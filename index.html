@@ -1,13 +1,266 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="az">
+
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
-     <link rel="stylesheet" href="./app.js">
+     <title>Soyuducu Təmiri | Professional Usta Xidməti</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-     
-     <script src="./app.js"></script>
+     <!-- Header -->
+     <header>
+          <!-- Top Bar -->
+          <div class="top-bar">
+               <div class="container">
+                    <div class="top-bar-content">
+                         <div class="top-bar-info">
+                              <span class="top-bar-item">
+                                   <i class="far fa-clock"></i>
+                                   8:00 - 22:00 (hər gün)
+                              </span>
+                              <span class="top-bar-item">
+                                   <i class="far fa-envelope"></i>
+                                   info@ustam.az
+                              </span>
+                         </div>
+                         <a href="tel:+994505552026" class="top-bar-call">
+                              <i class="fas fa-phone"></i>
+                              Zəng edin
+                         </a>
+                    </div>
+               </div>
+          </div>
+
+          <nav class="main-nav">
+               <div class="container">
+                    <div class="nav-container">
+                         <div class="logo">
+                              <a href="/">USTAM.AZ</a>
+                         </div>
+                         <div class="menu-icon">
+                              <i class="fas fa-bars"></i>
+                         </div>
+                    </div>
+               </div>
+          </nav>
+
+          <!-- Mobile Menu -->
+          <div class="mobile-menu">
+               <div class="mobile-menu-header">
+                    <div class="mobile-logo">USTAM.AZ</div>
+                    <div class="mobile-menu-close">
+                         <i class="fas fa-times"></i>
+                    </div>
+               </div>
+               <ul>
+                    <li><a href="#services">Xidmətlər</a></li>
+                    <li><a href="#about">Haqqımızda</a></li>
+                    <li><a href="#works">İşlərimiz</a></li>
+                    <li><a href="#faq">Suallar</a></li>
+                    <li><a href="#contact">Əlaqə</a></li>
+               </ul>
+          </div>
+
+          <!-- Overlay -->
+          <div class="menu-overlay"></div>
+     </header>
+
+     <!-- Hero Section -->
+     <section class="hero">
+          <div class="container">
+               <div class="hero-content">
+                    <h1>SOYUDUCU TƏMİRİ</h1>
+                    <h2>NoFrost, DeFrost soyuducuların təmiri,
+                         vitrin soyuducuların yığılması, quraşdırılması və təmiri</h2>
+                    <div class="cta-buttons">
+                         <a href="#contact" class="btn primary">Elektron müraciət</a>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- Services -->
+     <section id="services" class="services">
+          <div class="container">
+               <h2>Xidmətlərimiz</h2>
+               <div class="service-grid">
+                    <div class="service-card">
+                         <img src="./image/photo2_des.png.webp" alt="Təcili çağırış">
+                         <h3>Təcili çağırışlara hazırıq</h3>
+                         <p>24/7 xidmətinizdəyik</p>
+                    </div>
+                    <div class="service-card">
+                         <img src="./image/photo2_des.png.webp" alt="Peşəkar usta">
+                         <h3>Peşəkar usta xidməti</h3>
+                         <p>Təcrübəli ustalarımızla keyfiyyətli xidmət</p>
+                    </div>
+                    <div class="service-card">
+                         <img src="./image/photo2_des.png.webp" alt="Orijinal hissələr">
+                         <h3>Orijinal ehtiyat hissələri</h3>
+                         <p>Bütün brendlər üçün orijinal detallar</p>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- FAQ Section -->
+     <section id="faq" class="faq">
+          <div class="container">
+               <h2>Tez-tez verilən suallar</h2>
+               <div class="faq-grid">
+                    <div class="faq-item">
+                         <div class="faq-question">
+                              <h3>Təmir xidmətlərinizə zəmanət verirsinizmi?</h3>
+                              <i class="fas fa-chevron-down"></i>
+                         </div>
+                         <div class="faq-answer">
+                              <p>Bəli. Təmir bitdikdən sonra müştəriyə 1 il müddətinədək zəmanət talonu təqdim edilir.
+                              </p>
+                         </div>
+                    </div>
+
+                    <div class="faq-item">
+                         <div class="faq-question">
+                              <h3>Usta xidməti nə qədər çəkir?</h3>
+                              <i class="fas fa-chevron-down"></i>
+                         </div>
+                         <div class="faq-answer">
+                              <p>Problemin növündən asılı olaraq 30-60 dəqiqə ərzində həll edilir.</p>
+                         </div>
+                    </div>
+
+                    <div class="faq-item">
+                         <div class="faq-question">
+                              <h3>Ehtiyat hissələri orijinaldır?</h3>
+                              <i class="fas fa-chevron-down"></i>
+                         </div>
+                         <div class="faq-answer">
+                              <p>Bəli, bütün ehtiyat hissələri orijinal və keyfiyyətlidir.</p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- Contact Section -->
+     <section class="contact-section">
+          <!-- Contact Info Side -->
+          <div class="contact-info">
+               <h2 class="contact-title">Əlaqə məlumatları</h2>
+               <div class="contact-items">
+                    <div class="contact-item">
+                         <i class="fas fa-map-marker-alt"></i>
+                         <div class="contact-text">
+                              <div class="contact-label">Ünvan</div>
+                              <div class="contact-value">H. Zərdabi 78V, Bakı, Azərbaycan</div>
+                         </div>
+                    </div>
+
+                    <div class="contact-item">
+                         <i class="fas fa-phone"></i>
+                         <div class="contact-text">
+                              <div class="contact-label">Telefon</div>
+                              <div class="contact-value">
+                                   <a href="tel:0505552026">(050) 555-20-26</a>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="contact-item">
+                         <i class="far fa-envelope"></i>
+                         <div class="contact-text">
+                              <div class="contact-label">Email</div>
+                              <div class="contact-value">
+                                   <a href="mailto:info@ustam.az">info@ustam.az</a>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="contact-item">
+                         <i class="far fa-clock"></i>
+                         <div class="contact-text">
+                              <div class="contact-label">İş saatları</div>
+                              <div class="contact-value">8:00 - 22:00 (hər gün)</div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+          <!-- Contact Form Side -->
+          <div class="contact-form">
+               <h2 class="form-title">Bizə yazın</h2>
+               <form>
+                    <div class="form-group">
+                         <input type="text" class="form-control" placeholder="Adınız" required>
+                    </div>
+                    <div class="form-group">
+                         <input type="tel" class="form-control" placeholder="Telefon" required>
+                    </div>
+                    <div class="form-group">
+                         <select class="form-control" required>
+                              <option value="">Xidməti seçin</option>
+                              <option value="soyuducu">Soyuducu təmiri</option>
+                              <option value="kombi">Kombi təmiri</option>
+                              <option value="kondisioner">Kondisioner təmiri</option>
+                         </select>
+                    </div>
+                    <div class="form-group">
+                         <textarea class="form-control" placeholder="Mesajınız" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Göndər</button>
+               </form>
+          </div>
+     </section>
+
+     <!-- Floating Contact Buttons -->
+     <div class="floating-buttons">
+          <!-- WhatsApp Button -->
+          <a href="https://wa.me/994505552026" class="floating-btn whatsapp" target="_blank">
+               <i class="fab fa-whatsapp"></i>
+          </a>
+
+          <!-- Phone Button -->
+          <a href="tel:+994505552026" class="floating-btn phone">
+               <i class="fas fa-phone"></i>
+          </a>
+     </div>
+
+     <!-- Footer -->
+     <footer>
+          <div class="container">
+               <div class="footer-grid">
+                    <div class="footer-col">
+                         <h3>USTAM.AZ</h3>
+                         <p>Professional məişət texnikası təmiri xidməti</p>
+                    </div>
+                    <div class="footer-col">
+                         <h3>Xidmətlər</h3>
+                         <ul>
+                              <li><a href="#">Soyuducu təmiri</a></li>
+                              <li><a href="#">Kombi təmiri</a></li>
+                              <li><a href="#">Kondisioner təmiri</a></li>
+                              <!-- Digər xidmətlər -->
+                         </ul>
+                    </div>
+                    <div class="footer-col">
+                         <h3>Faydalı linklər</h3>
+                         <ul>
+                              <li><a href="#about">Haqqımızda</a></li>
+                              <li><a href="#faq">Suallar</a></li>
+                              <li><a href="#contact">Əlaqə</a></li>
+                         </ul>
+                    </div>
+               </div>
+               <div class="footer-bottom">
+                    <p>Copyright © 2024 Ustam. Bütün hüquqlar qorunur.</p>
+               </div>
+          </div>
+     </footer>
+
+     <script src="script.js"></script>
 </body>
+
 </html>
